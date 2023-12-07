@@ -10,14 +10,11 @@ Module Program
         Dim len1 As Integer
         Dim len2 As Integer
 
-
-
         len1 = 0
         len2 = 0
         a = ""
         b = ""
-
-
+        
         Console.Write("enter a word: ")
         str1 = Console.ReadLine()
         Console.Write("enter another word: ")
@@ -36,7 +33,6 @@ Module Program
 
         If len2 > 2 And len1 > 2 Then
             Console.WriteLine("result:" & p & " " & q)
-            'Console.WriteLine(y & a)
         Else
             Console.WriteLine("enter longer word nexxt time. ")
         End If
