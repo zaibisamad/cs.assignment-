@@ -2,7 +2,7 @@ Imports System
 
 Module Program
     Sub Main()
-
+        'truncating and replacing a character in a string
         Dim STR1, STR2, Char1, Char2, Char3 As String
         Dim COUNT As Integer
         STR1 = ""
